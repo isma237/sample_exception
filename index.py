@@ -11,6 +11,7 @@ def get_bus(index):
         return "Bus-D"
     except Exception:
         print("Un probleme est survenu")
+        return "Bus-D"
 
 
 bus = get_bus('2')
