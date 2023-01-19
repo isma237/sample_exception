@@ -5,10 +5,10 @@ def get_bus(index):
         return buses[index]
     except IndexError:
         print("{} n'est pas compris dans la plage des index tableau".format(index))
-        return "Empty"
+        return "Bus-D"
     except TypeError:
         print("L'index doit etre un entier")
-        return "Empty"
+        return "Bus-D"
     except Exception:
         print("Un probleme est survenu")
 
